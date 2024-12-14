@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("haunted.avif") repeat center center/cover; 
+}
+
+section{
+    /* background-color: cadetblue; */
+    height:100vh;
+    display: grid;
+    place-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background: url("haunted.avif") no-repeat center center; */
+}
+
+article{
+    border:2px solid black;
+    padding: 1em; 
+    /* display: grid;
+    place-items: center; */
+    /* display:flex; */
+    /* background-color: rgb(99, 99, 129); */
+    background-color: #8c7b3d;
+background-image: linear-gradient(45deg, #8c7b3d 0%, #5d3851 33%, #506d80 66%, #ffffff 100%);
+    border-radius: 1em;
+}
+.header{
+    display:flex;
+    width: 100%;
+    /* justify-content: space-around; */
+    gap:0.5em;
+}
+
+.header input{
+    /* padding:1em;
+    margin: 0.25em; */
+    /* outline: none;
+    border:none; */
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 0.5em;
+    width:100%;
+    /* width:50%;
+    justify-items: flex-start; */
+}
+
+.header img{
+    outline: none;
+    border:none;
+    margin-top: 1em;
+}
+
+
+.details{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.sunimg{
+    margin: 0.5em;
+}
+
+h1{
+    text-align: center;
+}
+.sunny{
+    font-size: larger;
+}
+
+.footer{
+    display: flex;
+    /* justify-items: space-evenly; */
+    gap:2em;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+.invalid{
+    display:none;
+}
